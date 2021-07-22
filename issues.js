@@ -9,9 +9,12 @@ var repo = "aleitner/GithubIssuesBlog"
 window.onload = function() {
     var issues = getIssues()
 
+    console.log(`Loaded ${issues.length} issue(s)`)
 
     if (issues.length > 0) {
         var comments = getCommentsForIssue(issues[0].number)
+        console.log(`Loaded ${comments.length} comment(s)`)
+
         populateRecent(issues[0])
         populateOlderIssuesList(issues)
 

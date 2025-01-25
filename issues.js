@@ -1,9 +1,9 @@
 // Issue must have one of these labels in order to show up
 var labels = ['news']
 // Issue must be created by one of these users in order to show up
-var users = ['aleitner']
+var users = ['briteming']
 // Issue repo location
-var repo = "aleitner/GithubIssuesBlog"
+var repo = "briteming/agib"
 
 // Retrieve all issues and populate
 window.onload = function() {
